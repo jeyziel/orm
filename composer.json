@@ -1,0 +1,19 @@
+{
+    "name": "jeyziel/orm",
+    "description": "orm básico",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeyziel Gama",
+            "email": "jeyziel_2101@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gama\\ORM\\" : "src/",
+            "App\\" : "App/"
+        }
+    }
+}
